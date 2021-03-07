@@ -1,5 +1,14 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+    <div class="about-page">
+        <welcomeM />
+    </div>
 </template>
+<script>
+import welcomeM from "@/components/About/welcomeM";
+export default {
+    name: "about",
+    components: {
+        welcomeM
+    }
+};
+</script>
